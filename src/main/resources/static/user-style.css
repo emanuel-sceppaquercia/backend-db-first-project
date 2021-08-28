@@ -1,0 +1,47 @@
+body{
+    font-family:sans-serif;
+    background-color: rgb(240, 223, 221);
+}
+
+div{
+    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 36em;
+    background-color: white;
+    border: solid 1px black;
+}
+
+h1{
+    font-size: 3rem;
+    color:steelblue;
+    padding-top: 2rem;
+    margin-left: 3vw;
+}
+
+div tr{
+    display: flex;
+    width: 60vw;
+    margin-top: 0;
+    margin-left: 2vw;
+    border: solid gray 1px;
+}
+
+table th{
+    color: steelblue;
+    background-color: whitesmoke;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    text-align: left;
+    font-weight: 600;
+    width: 20vw;
+    border-right: solid gray 1px;
+}
+
+thead th{
+    color: black;
+}
+
+tr:last-child{
+    border-right: 0;
+}
